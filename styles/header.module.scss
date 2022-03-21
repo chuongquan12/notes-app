@@ -1,0 +1,41 @@
+@import './static/colors';
+@import './static/global';
+@import './static/screen';
+
+.header {
+    color: $color_white;
+    background-color: $color_eerie_black;
+    height: 15vh;
+
+    border-bottom: 2px solid $color_davys_grey;
+
+    &Logo {
+        font-size: 1.25rem;
+
+        & > img {
+            width: 3rem;
+            height: 3rem;
+
+            object-fit: contain;
+        }
+    }
+
+    &Search {
+        padding: 0.4rem 0;
+        background-color: $color_jet;
+
+        border-radius: 20px;
+        & > input {
+            color: $color_white;
+            width: 75%;
+
+            font-family: Montserrat, 'Courier New', monospace;
+        }
+    }
+
+    &User {
+        & > span {
+            margin: 0 1rem;
+        }
+    }
+}

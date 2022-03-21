@@ -1,0 +1,29 @@
+@import './static/colors';
+@import './static/global';
+@import './static/screen';
+
+.auth {
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 0.5rem 3rem;
+        background-color: $color_white;
+        border-radius: 15px;
+
+        &--icon {
+            height: 2rem;
+            width: 2rem;
+            object-fit: contain;
+
+            margin: 0 0.5rem;
+        }
+    }
+}
